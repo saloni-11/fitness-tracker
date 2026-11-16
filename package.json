@@ -1,0 +1,30 @@
+{
+  "name": "fitness-tracker",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build && wrangler dev",
+    "build": "vite build",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.worker.json --noEmit",
+    "test": "vitest run",
+    "deploy": "vite build && wrangler deploy",
+    "db:local": "wrangler d1 migrations apply fitness --local",
+    "db:remote": "wrangler d1 migrations apply fitness --remote",
+    "genkey": "node scripts/genkey.mjs",
+    "import": "tsx scripts/import.ts",
+    "verify": "tsx scripts/verify.ts",
+    "export": "tsx scripts/export.ts"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261115.1",
+    "@fontsource/barlow-condensed": "^5.3.0",
+    "@fontsource/instrument-sans": "^5.3.0",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0",
+    "wrangler": "^4.162.0"
+  }
+}

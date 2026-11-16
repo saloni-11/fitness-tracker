@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars
+.env
+*.local
+
+# Real data never goes in the repo. Use fixtures/sample-export.json for development.
+data/
+backups/

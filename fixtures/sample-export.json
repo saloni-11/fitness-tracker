@@ -1,0 +1,101 @@
+{
+ "exported": "2026-11-11",
+ "source": "Synthetic sample data for development. Not a real person's log.",
+ "days": {
+  "2026-11-09": {
+   "date": "2026-11-09",
+   "drinks": [],
+   "food": [
+    {"id": "oat1109", "meal": "breakfast", "name": "Porridge oats with milk", "amount": "50 g oats + 200 ml milk", "kcal": 285.5, "protein": 13.1, "carbs": 42.3, "fat": 7.2, "fiber": 5, "sugar": 10.1, "satfat": 2.9, "sodium": 95, "calcium": 260},
+    {"id": "cof1109", "meal": "breakfast", "name": "Black coffee", "amount": "8 oz", "kcal": 2, "protein": 0.3, "carbs": 0, "fat": 0, "caffeine": 95},
+    {"id": "wrp1109", "meal": "lunch", "name": "Chicken salad wrap", "amount": "1 wrap", "kcal": 520, "protein": 34, "carbs": 48, "fat": 20, "fiber": 4, "sodium": 980},
+    {"id": "dal1109", "meal": "dinner", "name": "Lentil dal with rice", "amount": "300 g dal + 150 g rice", "kcal": 610.2, "protein": 24.7, "carbs": 96.4, "fat": 12.3, "fiber": 14, "sodium": 720, "iron": 6.1},
+    {"id": "ygt1109", "meal": "snack", "name": "Plain yogurt", "amount": "150 g", "kcal": 95, "protein": 8.5, "carbs": 9.6, "fat": 2.3, "calcium": 270}
+   ],
+   "workouts": [
+    {"id": "str1109", "type": "Strength", "name": "Full body", "duration": 55, "kcal": 290, "totalKcal": 380, "avgHR": 110, "maxHR": 148, "effort": 6, "zones": {"Z1": "20:10", "Z2": "24:30", "Z3": "8:05"}, "detail": "Squat 3×10 @ 40 kg\nRow 3×12 @ 25 kg\nPlank 3 × 40 s"}
+   ],
+   "steps": 9120, "water": 2.5, "sleep": 7.5, "weight": 70.2,
+   "pain": {"shins": 2, "shoulder": 1},
+   "updated": "2026-11-09T20:10:00Z"
+  },
+  "2026-11-10": {
+   "date": "2026-11-10",
+   "drinks": [
+    {"id": "ber1110", "name": "Beer", "amount": "12 oz", "std": 1, "kcal": 150, "carbs": 13}
+   ],
+   "food": [
+    {"id": "egg1110", "meal": "breakfast", "name": "Scrambled eggs on toast", "amount": "2 eggs + 1 slice", "kcal": 310.1, "protein": 18.2, "carbs": 16.5, "fat": 19.2, "satfat": 5.5, "sodium": 480},
+    {"id": "sup1110", "meal": "lunch", "name": "Tomato soup with bread", "amount": "350 ml + 1 roll", "kcal": 330, "protein": 9, "carbs": 52, "fat": 9, "fiber": 5, "sodium": 1100, "vitC": 30},
+    {"id": "pas1110", "meal": "dinner", "name": "Pasta with tuna and tomato", "amount": "400 g", "kcal": 640.3, "protein": 36.6, "carbs": 82, "fat": 16.4, "fiber": 6, "sodium": 860},
+    {"id": "buf1110", "meal": "dinner", "name": "Estimate buffer (restaurant oil/ghee)", "amount": "~10% on dinner", "kcal": 65, "protein": 0, "carbs": 1, "fat": 7}
+   ],
+   "workouts": [
+    {"id": "run1110", "type": "Walk / run", "name": "Easy run", "duration": 28, "kcal": 240, "detail": "4 km at an easy pace"}
+   ],
+   "steps": 11840, "water": 3, "sleep": 6.75,
+   "pain": {"shins": {"score": 4, "note": "end of run only"}, "shoulder": 1},
+   "notes": "Legs heavy after yesterday.",
+   "updated": "2026-11-10T21:30:00Z"
+  },
+  "2026-11-11": {
+   "date": "2026-11-11",
+   "drinks": [],
+   "food": [
+    {"id": "oat1111", "meal": "breakfast", "name": "Porridge oats with milk", "amount": "50 g oats + 200 ml milk", "kcal": 285.5, "protein": 13.1, "carbs": 42.3, "fat": 7.2, "fiber": 5, "sugar": 10.1, "satfat": 2.9, "sodium": 95, "calcium": 260},
+    {"id": "tea1111", "meal": "snack", "name": "Tea", "amount": "8 oz", "kcal": 2, "protein": 0, "carbs": 0.4, "fat": 0, "caffeine": 45}
+   ],
+   "workouts": [],
+   "steps": 4300, "water": 1
+  }
+ },
+ "settings": {
+  "goals": {
+   "kcal": 2100, "protein": 120, "carbs": 240, "fat": 70, "steps": 10000, "water": 3, "sleep": 7.5, "targetWeight": 68,
+   "weekBudget": 14700,
+   "kcalByDay": {"mon": 2000, "tue": 2000, "wed": 2000, "thu": 2000, "fri": 2300, "sat": 2400, "sun": 2000},
+   "micros": {"fiber": 30, "sodium": 2300, "calcium": 1000, "iron": 8, "caffeine": 400},
+   "statement": "Sample goal: get a little leaner while staying strong.",
+   "updated": "2026-11-01T00:00:00.000Z"
+  },
+  "plan": {
+   "summary": "Sample plan: three strength days and two easy runs a week.",
+   "updated": "2026-11-08",
+   "phases": [
+    {"when": "Nov", "name": "Phase 1 · Baseline", "focus": "Build the habit.", "items": ["Log every meal", "Three strength sessions a week"]}
+   ],
+   "events": [
+    {"name": "Weekend away", "from": "2026-11-14", "to": "2026-11-15", "when": "14–15 Nov", "focus": "No planned workouts.", "items": ["Walk a lot", "Keep protein up"]}
+   ],
+   "notes": ["Protein at every meal", "Water bottle on the desk"],
+   "week": [
+    {"day": "Monday", "title": "Strength · Full body (55 min)", "detail": "Rest 60–90 s between sets.", "exercises": [
+     {"part": "A1", "name": "Goblet squat", "sets": "3×10", "cue": "Chest tall, knees track over toes", "demo": "goblet squat form", "last": "3×10 at 40 kg", "lastDate": "9 Nov", "next": "3×10 at 42.5 kg"},
+     {"part": "A2", "name": "Seated cable row", "sets": "3×12", "cue": "Pull elbows to hips", "demo": "seated cable row form"}
+    ]},
+    {"day": "Tuesday", "title": "Easy run (25–30 min)", "exercises": []},
+    {"day": "Wednesday", "title": "Rest or mobility", "exercises": []}
+   ],
+   "overrides": {
+    "2026-11-11": {"title": "Rest day (adjusted)", "note": "Shins were sore after Tuesday's run.", "exercises": [{"name": "Calf and ankle mobility", "sets": "5 min", "cue": "Gentle, no pain"}]}
+   }
+  },
+  "pantry": {
+   "note": "Label values per serving.",
+   "items": [
+    {"key": "oats", "name": "Rolled oats", "serving": "40 g", "kcal": 150, "protein": 5, "carbs": 27, "fat": 3, "fiber": 4},
+    {"key": "milk", "name": "2% milk", "serving": "1 cup (240 ml)", "kcal": 120, "protein": 8, "carbs": 12, "fat": 5}
+   ]
+  },
+  "gym": {"name": "Sample gym", "equipment": [{"item": "Dumbbells", "notes": "5–30 kg"}]}
+ },
+ "recipes": {
+  "lentil-dal-2026-11-08": {
+   "name": "Lentil dal (batch, 8 Nov 2026)",
+   "ingredients": ["Red lentils 300 g", "Onion 150 g", "Oil 15 g"],
+   "gross_with_pot_g": 2860, "pot_tare_g": 1660, "cooked_g": 1200,
+   "total": {"kcal": 1300.4, "protein": 78.2, "carbs": 186, "fat": 22.6},
+   "servings_logged": [{"date": "2026-11-09", "meal": "dinner", "cooked_g": 300}]
+  }
+ }
+}
